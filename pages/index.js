@@ -5,13 +5,13 @@ import Header from '../components/header'
 import Layout from '../components/layout'
 import Layout1 from '../components/layout1'
 import Footer from '../components/footer'
-import Toggle from '../components/toggle'
+import { faAngleDown, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <Toggle />
       <Layout />
       <Layout1 />
       <Footer />

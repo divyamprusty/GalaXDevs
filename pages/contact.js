@@ -2,14 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
-import Layout2 from '../components/layout2'
+import Contact from '../components/contact'
 import Footer from '../components/footer'
 
-export default function About() {
+export default function ContactPage(){
     return (
         <div>
             <Header />
-            <Layout2 />
+            <Contact />
             <Footer />
         </div>
     )

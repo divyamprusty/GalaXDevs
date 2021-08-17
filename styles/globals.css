@@ -11,7 +11,8 @@ body {
 }
 
 body.dark {
-  background-color: #292c35;
+  background-color: #111827;
+  transition: 0.5s;
 }
 
 a {
