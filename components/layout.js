@@ -1,26 +1,36 @@
 import React from 'react';
 import Link from 'next/link'
-import { text } from '@fortawesome/fontawesome-svg-core';
+import R2D2 from '../public/R2D2.png'
+import Image from 'next/image';
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function layout() {
     return (
-        <section className="text-gray-600 body-font">
+        <div>
+        <section className="text-gray-600 body-font" data-aos="zoom-in" data-aos-duration='1000'>
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-                    <br className="hidden lg:inline-block"/>readymade gluten
+                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The Artoo-Detoo
                 </h1>
-                <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <p className="mb-8 leading-relaxed">R2D2 is your go to companion. Ranging from the plug of your
+              television to the engine of your car, it can fix anything in just
+              a span of few minutes.</p>
                 <div className="flex justify-center">
                 <span style={{backgroundColor: 'blue', color: 'white'}} className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-                    <Link className="inline-flex text-white bg-blue border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" href='/features'>FEATURES</Link>
+                    <Link className="inline-flex text-white bg-blue border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" href='/features'>Read More</Link>
                 </span>
                 </div>
             </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+      <Image className='object-cover object-cover rounded' alt='R2D2' src={R2D2} />
             </div>
         </div>
         </section>
+
+        <a className="icon-container" href="#layout1">
+        <FontAwesomeIcon icon={faAngleDown} className="icon animate-bounce" />
+      </a>
+      </div>
     )
 }

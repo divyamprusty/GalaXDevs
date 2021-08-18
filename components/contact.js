@@ -1,23 +1,25 @@
 import React from 'react'
 
 export default function contact() {
+  const HandleSubmit = () => {}
+
     return (
         <div>
             <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" data-aos="slide-up" data-aos-duration="1500" >
               Contact Us
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base" data-aos="slide-up" data-aos-duration="1550">
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
               gentrify.
             </p>
           </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          <div className="lg:w-1/2 md:w-2/3 mx-auto" data-aos="slide-up" data-aos-duration="1700">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
-                <div className="relative">
+                <div className="relative" >
                   <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                     Name
                   </label>
@@ -30,7 +32,7 @@ export default function contact() {
                 </div>
               </div>
               <div className="p-2 w-1/2">
-                <div className="relative">
+                <div className="relative" >
                   <label htmlFor="email" className="leading-7 text-sm text-gray-600">
                     Email
                   </label>
@@ -43,7 +45,7 @@ export default function contact() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <div className="relative">
+                <div className="relative" >
                   <label htmlFor="message" className="leading-7 text-sm text-gray-600">
                     Message
                   </label>
@@ -54,19 +56,18 @@ export default function contact() {
                   ></textarea>
                 </div>
               </div>
-              <div className="p-2 w-full">
+              <div className="p-2 w-full" >
                 <button className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">
                   Submit
                 </button>
               </div>
-              <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-green-500">example@email.com</a>
+              <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center" >
                 <p className="leading-normal my-5">
                   49 Smith St.
                   <br />
                   Saint Cloud, MN 56301
                 </p>
-                <span className="inline-flex">
+                <span className="inline-flex" >
                   <a className="text-gray-500">
                     <svg
                       fill="currentColor"
