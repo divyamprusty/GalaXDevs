@@ -85,3 +85,23 @@ a {
   color: #fff;
   font-size: 1.3rem;
 }
+
+.goToTop {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.goToTop a {
+  padding-left: auto;
+  border-radius: 5px;
+}
+
+.goToTop a:hover {
+  border: dotted;
+}
+
+.contactButtons {
+  display: flex;
+  flex-direction: row;
+}

@@ -17,8 +17,8 @@ export default function layout() {
               television to the engine of your car, it can fix anything in just
               a span of few minutes.</p>
                 <div className="flex justify-center">
-                <span style={{backgroundColor: 'blue', color: 'white'}} className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-                    <Link className="inline-flex text-white bg-blue border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" href='/features'>Read More</Link>
+                <span className='inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+                    <Link className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" href='/features'>Read More</Link>
                 </span>
                 </div>
             </div>
@@ -28,7 +28,7 @@ export default function layout() {
         </div>
         </section>
 
-        <a className="icon-container" href="#layout1">
+        <a className="icon-container" href="#layout1" id='icon-container'>
         <FontAwesomeIcon icon={faAngleDown} className="icon animate-bounce" />
       </a>
       </div>

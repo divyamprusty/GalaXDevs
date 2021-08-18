@@ -70,6 +70,9 @@ export default function reviews() {
         <div className='icon-container' data-aos="zoom-in" data-aos-duration='1000' >
           <Link className='icon-container' href='/about' passHref><FontAwesomeIcon icon={faAngleRight} className='icon' /></Link>
         </div>
+        <div className='goToTop'>
+            <Link className='goToTop' href='/' passHref><a>GO TO TOP</a></Link>
+        </div>
       </section>
         </div>
     )

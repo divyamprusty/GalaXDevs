@@ -5,9 +5,6 @@ export default function pricing() {
         <div>
             <section className="text-gray-600 body-font" data-aos="fade-in" data-aos-duration="1500">
         <div className="text-center">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mt-4 text-gray-900">
-            Pricing
-          </h1>
         </div>
         <div className="container px-5 py-20 mx-auto">
           <div className="flex flex-wrap -m-4">
