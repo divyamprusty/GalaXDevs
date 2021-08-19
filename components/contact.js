@@ -2,8 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 
 export default function contact() {
-  const HandleSubmit = () => {}
-
     return (
         <div>
             <section className="text-gray-600 body-font relative">
@@ -12,10 +10,6 @@ export default function contact() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" data-aos="slide-up" data-aos-duration="1500" >
               Contact Us
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base" data-aos="slide-up" data-aos-duration="1550">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
-            </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto" data-aos="slide-up" data-aos-duration="1700">
             <div className="flex flex-wrap -m-2">
@@ -60,7 +54,7 @@ export default function contact() {
               <div className="p-2 w-full" >
               <span className='contactButtons'>
                 <button className="flex mx-auto text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  SUBMIT
+                  <Link href='/submitted-contact-info' passHref>SUBMIT</Link>
                 </button>
                 </span>
               </div>

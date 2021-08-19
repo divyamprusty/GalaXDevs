@@ -105,3 +105,85 @@ a {
   display: flex;
   flex-direction: row;
 }
+
+.text-box {
+  border: 2px solid #4338ca;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  text-indent: 3px;
+  padding-bottom: 2rem;
+}
+
+.testimonials-h1 {
+  text-align: center;
+  margin-bottom: 5.5rem;
+  margin-top: 3rem;
+}
+
+.testi-img {
+  height: 7rem;
+  margin-top: -3.25rem;
+  border-radius: 50%;
+}
+
+.textbox-out {
+  display: flex;
+  justify-content: center;
+}
+
+.customer-name {
+  text-transform: uppercase;
+  text-decoration: black;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  text-decoration: black;
+  font-size: 1rem;
+}
+
+.next-btn,
+.prev-btn {
+  margin-top: 100%;
+  cursor: pointer;
+  border: 1px solid #4338ca;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  outline: none;
+  background-color: transparent;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  transition-duration: 0.5s;
+  background-color: #4338ca;
+  color: whitesmoke;
+}
+
+.video-responsive {
+  overflow: hidden;
+  margin: 50px;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.onSubmission {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 4rem;
+}
