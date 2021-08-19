@@ -60,10 +60,7 @@ export default function contact() {
               <div className="p-2 w-full" >
               <span className='contactButtons'>
                 <button className="flex mx-auto text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Submit
-                </button>
-                <button className="flex mx-auto text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  <Link className='backToHome' href='/' passHref>Back To Home</Link>
+                  SUBMIT
                 </button>
                 </span>
               </div>

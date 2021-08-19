@@ -4,6 +4,7 @@ import R2D2 from '../public/R2D2.png'
 import Image from 'next/image';
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link as ScrollLink } from 'react-scroll'
 
 export default function layout() {
     return (
@@ -17,8 +18,8 @@ export default function layout() {
               television to the engine of your car, it can fix anything in just
               a span of few minutes.</p>
                 <div className="flex justify-center">
-                <span className='inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-                    <Link className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" href='/features'>Read More</Link>
+                <span className='inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+                    <Link className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" href='/features'>READ MORE</Link>
                 </span>
                 </div>
             </div>
@@ -28,9 +29,9 @@ export default function layout() {
         </div>
         </section>
 
-        <a className="icon-container" href="#layout1" id='icon-container'>
+      <ScrollLink to='layout1' spy={true} smooth={true} duration={100} className='icon-container'>
         <FontAwesomeIcon icon={faAngleDown} className="icon animate-bounce" />
-      </a>
+      </ScrollLink>
       </div>
     )
 }
