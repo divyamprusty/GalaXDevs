@@ -1,6 +1,6 @@
 import React from "react";
 
-function BuyNow() {
+function buynow() {
   return (
     <div>
       <section className="text-gray-600 body-font">
@@ -119,4 +119,4 @@ function BuyNow() {
   );
 }
 
-export default BuyNow;
+export default buynow;

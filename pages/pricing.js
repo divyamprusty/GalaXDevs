@@ -5,7 +5,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import BuyNow from "../components/BuyNow";
+import Buynow from "../components/buynow";
 
 export default function pricing() {
   return (
@@ -14,7 +14,7 @@ export default function pricing() {
       <Header />
       <br />
       <Products />
-      <BuyNow />
+      <Buynow />
       <div
         className="icon-container"
         data-aos="zoom-in"
