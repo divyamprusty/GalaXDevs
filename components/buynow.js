@@ -9,95 +9,93 @@ function BuyNow() {
             <table className="table-auto w-full text-left whitespace-no-wrap">
               <thead>
                 <tr>
-                  <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">
+                  <th className="dark:bg-gray-800 dark:text-white px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">
                     Name
                   </th>
-                  <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
+                  <th className="dark:bg-gray-800 dark:text-white px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
                     Price
                   </th>
-                  <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
+                  <th className="dark:bg-gray-800 dark:text-white w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-4 py-3">R2D2</td>
-                  <td className="px-4 py-3 text-lg text-gray-900">Free</td>
+                  <td className="px-4 py-3 dark:text-white ">R2D2</td>
+                  <td className="px-4 py-3 text-lg text-gray-900 dark:text-white ">Free</td>
                   <td className="w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-gray-200 px-4 py-3">R2D3</td>
-                  <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 dark:text-white ">R2D3</td>
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
                     $24
                   </td>
-                  <td className="border-t-2 border-gray-200 w-10 text-center">
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-gray-200 px-4 py-3">
-                    R3D1
-                  </td>
-                  <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 dark:text-white ">R3D1</td>
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
                     $50
                   </td>
-                  <td className="border-t-2 border-gray-200 w-10 text-center">
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:text-white ">
                     R3D2
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
                     $72
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:text-white ">
                     R4D2
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
                     $72
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:text-white ">
                     R4D3
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
                     $72
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:text-white ">
                     R5D1
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
                     $72
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 dark:text-white ">
                     R5D2
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
                     $72
                   </td>
-                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>

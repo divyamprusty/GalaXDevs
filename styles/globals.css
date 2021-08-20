@@ -16,6 +16,19 @@ body.dark {
   transition: 0.5s;
 }
 
+.headerelements {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .icon-container {
   display: flex;
   flex-direction: row;
@@ -25,8 +38,6 @@ body.dark {
 
 .icon {
   color: black;
-  width: 100px;
-  height: 100px;
   font-size: 10rem;
 }
 
@@ -183,6 +194,12 @@ a {
 }
 
 .onSubmission {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 4rem;
+}
+
+.subscribed {
   text-align: center;
   font-size: 2.5rem;
   padding-top: 4rem;

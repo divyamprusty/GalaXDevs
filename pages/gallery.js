@@ -13,22 +13,25 @@ export default function gallery() {
     <div>
       <title>GALLERY</title>
       <Header />
+      <br/>
       <Gallery embedId="JLmOteqmDYc" />
       <Gallery embedId="8tjMM67-aao" />
       <Gallery embedId="0YiirWsRlQ8" />
+      <div className='goToTop dark:text-white' >
+          <Link href='/gallery'>GO TO TOP</Link>
+        </div>
       <div
         className="icon-container"
         data-aos="zoom-in"
         data-aos-duration="1000"
       >
         <Link className="icon-container" href="/pricing" passHref>
-          <FontAwesomeIcon icon={faAngleLeft} className="icon vert-move" />
+          <FontAwesomeIcon icon={faAngleLeft} className="icon dark:text-white vert-move" />
         </Link>
         <Link className="icon-container" href="/contact" passHref>
-          <FontAwesomeIcon icon={faAngleRight} className="icon vert-move" />
+          <FontAwesomeIcon icon={faAngleRight} className="icon dark:text-white vert-move" />
         </Link>
       </div>
-      <Newsletter />
       <Footer />
     </div>
   );

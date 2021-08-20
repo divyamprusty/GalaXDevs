@@ -6,10 +6,10 @@ function Products() {
     <div>
       <section className="text-gray-600 body-font">
         <div className="text-center">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mt-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mt-4 text-gray-900 dark:text-white ">
             Pricing
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base pt-5">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base pt-5 dark:text-white ">
             Choose from a variety of products that suits your desires.
           </p>
         </div>
@@ -24,13 +24,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R2D2
                 </h2>
-                <p className="mt-1">$16.00</p>
+                <p className="mt-1 dark:text-gray-500 ">$16.00</p>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -42,13 +42,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R2D3
                 </h2>
-                <p className="mt-1">$21.15</p>
+                <p className="mt-1 dark:text-gray-500 ">$21.15</p>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -60,13 +60,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R3D1
                 </h2>
-                <p className="mt-1">$12.00</p>
+                <p className="mt-1 dark:text-gray-500 ">$12.00</p>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -78,13 +78,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R3D2
                 </h2>
-                <p className="mt-1">$18.40</p>
+                <p className="mt-1 dark:text-gray-500 ">$18.40</p>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -96,13 +96,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R4D2
                 </h2>
-                <p className="mt-1">$16.00</p>
+                <p className="mt-1 dark:text-gray-500 ">$16.00</p>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -114,13 +114,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R4D3
                 </h2>
-                <p className="mt-1">$21.15</p>
+                <p className="mt-1 dark:text-gray-500 ">$21.15</p>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -132,13 +132,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R5D1
                 </h2>
-                <p className="mt-1">$12.00</p>
+                <p className="mt-1 dark:text-gray-500 ">$12.00</p>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -150,13 +150,13 @@ function Products() {
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 dark:text-gray-500 ">
                   CATEGORY
                 </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
+                <h2 className="text-gray-900 title-font text-lg font-medium dark:text-white ">
                   R5D2
                 </h2>
-                <p className="mt-1">$18.40</p>
+                <p className="mt-1 dark:text-gray-500 ">$18.40</p>
               </div>
             </div>
           </div>

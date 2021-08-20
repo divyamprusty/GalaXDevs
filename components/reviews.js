@@ -9,7 +9,7 @@ function Reviews() {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
+          <h1 className="dark:text-white text-3xl font-medium title-font text-gray-900 mb-12 text-center">
             What our users say
           </h1>
           <div className="flex flex-wrap -m-4">
@@ -82,8 +82,11 @@ function Reviews() {
           data-aos-duration="1000"
         >
           <Link className="icon-container" href="/about" passHref>
-            <FontAwesomeIcon icon={faAngleRight} className="icon" />
+            <FontAwesomeIcon icon={faAngleRight} className="icon dark:text-white " />
           </Link>
+        </div>
+        <div className='goToTop dark:text-white' >
+          <Link href='/'>GO TO TOP</Link>
         </div>
       </section>
     </div>
