@@ -10,12 +10,8 @@ function header() {
   }
 
   return (
-    <div className='headerelements'>
-      <header
-        className="headerelements bg-white text-gray-600 body-font dark:bg-gray-900"
-        data-aos="slide-up"
-        data-aos-duration="1000"
-      >
+    <div className="headerelements">
+      <header className="headerelements bg-white text-gray-600 body-font dark:bg-gray-900">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <span className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 dark:text-white">
             <svg
@@ -27,7 +23,9 @@ function header() {
               className="w-10 h-10 text-white p-2 bg-indigo-700 rounded-full"
               viewBox="0 0 24 24"
             >
-              <Link href='/' passHref><FontAwesomeIcon icon={faRobot} /></Link> 
+              <Link href="/" passHref>
+                <FontAwesomeIcon icon={faRobot} />
+              </Link>
             </svg>
             <span className="ml-3 text-xl" style={{ fontWeight: "bold" }}>
               {appName}
@@ -36,27 +34,27 @@ function header() {
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center dark:text-white">
             <span className="transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-indigo-700 hover:text-gray-100 hover:duration-0.5s">
               <Link className="mr-5 hover:text-gray-900" href="/">
-                HOME
+                Home
               </Link>
             </span>
             <span className="dark:text-white transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-indigo-700 hover:text-gray-100 hover:duration-0.5s">
               <Link className="mr-5 hover:text-gray-900" href="/about">
-                ABOUT US
+                About Us
               </Link>
             </span>
             <span className="dark:text-white transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-indigo-700 hover:text-gray-100 hover:duration-0.5s">
               <Link className="mr-5 hover:text-gray-900" href="/pricing">
-                PRICING
+                Pricing
               </Link>
             </span>
             <span className="dark:text-white transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-indigo-700 hover:text-gray-100 hover:duration-0.5s">
               <Link className="mr-5 hover:text-gray-900" href="/gallery">
-                GALLERY
+                Gallery
               </Link>
             </span>
             <span className="dark:text-white transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-indigo-700 hover:text-gray-100 hover:duration-0.5s">
               <Link className="mr-5 hover:text-gray-900" href="/contact">
-                CONTACT US
+                Contact Us
               </Link>
             </span>
           </nav>

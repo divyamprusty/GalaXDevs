@@ -20,7 +20,7 @@ export default function content() {
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 dark:text-white">
-              FEATURES
+              Features
             </h1>
             <p className="mb-8 leading-relaxed dark:text-gray-400">
               R2-D2 stands for Second Generation Robotic Droid Series-2,
@@ -43,8 +43,8 @@ export default function content() {
               memory wipe.
             </p>
             <div className="flex justify-center">
-              <button className="transition duration-500 ease-in-out inline-flex text-black bg-white border-2 border-indigo-500 rounded-md py-2 px-6 focus:outline-none hover:bg-indigo-600 hover:text-white rounded text-lg">
-                <Link href="/">Back To Home </Link>
+              <button className="transition duration-500 ease-in-out dark:bg-gray-500 inline-flex text-black bg-white border-2 border-indigo-500 rounded-md py-2 px-6 focus:outline-none hover:bg-indigo-600 hover:text-white rounded text-lg">
+                <Link href="/">Back To Home</Link>
               </button>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function content() {
               <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900 dark:text-white">
                 <FontAwesomeIcon icon={faInfinity} />
               </h2>
-              <p className="leading-relaxed dark:text-gray-400">Products</p>
+              <p className="leading-relaxed dark:text-gray-400">Efforts</p>
             </div>
           </div>
         </div>

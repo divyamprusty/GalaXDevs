@@ -94,7 +94,7 @@ export default function layout2() {
                   GARV JAIN
                 </span>
                 <span className="text-gray-400 text-xs tracking-widest mt-0.5">
-                  DESIGNER
+                  DESIGNER | UI DEVELOPER
                 </span>
               </span>
             </a>

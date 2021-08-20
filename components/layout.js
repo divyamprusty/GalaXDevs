@@ -1,12 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
-import R2D2image from "../public/R2D2image.png";
-import Image from "next/image";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link as ScrollLink } from "react-scroll";
-import { appName } from "../lib/constants";
 
 export default function layout() {
   return (
@@ -64,7 +61,7 @@ export default function layout() {
         to="layout1"
         spy={true}
         smooth={true}
-        duration={100}
+        duration={500}
         className="icon-container"
       >
         <FontAwesomeIcon

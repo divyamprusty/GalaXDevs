@@ -21,24 +21,30 @@ function BuyNow() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 dark:text-white ">R2D2</td>
-                  <td className="px-4 py-3 text-lg text-gray-900 dark:text-white ">Free</td>
+                  <td className="px-4 py-3 text-lg text-gray-900 dark:text-white ">
+                    $1600
+                  </td>
                   <td className="w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 dark:text-white ">R2D3</td>
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 dark:text-white ">
+                    R2D3
+                  </td>
                   <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
-                    $24
+                    $2115
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 dark:text-white ">R3D1</td>
+                  <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 dark:text-white ">
+                    R3D1
+                  </td>
                   <td className="dark:border-gray-800 border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
-                    $50
+                    $1200
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
@@ -49,7 +55,7 @@ function BuyNow() {
                     R3D2
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
-                    $72
+                    $1840
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
@@ -60,7 +66,7 @@ function BuyNow() {
                     R4D2
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
-                    $72
+                    $1600
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
@@ -71,7 +77,7 @@ function BuyNow() {
                     R4D3
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
-                    $72
+                    $2115
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
@@ -82,7 +88,7 @@ function BuyNow() {
                     R5D1
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
-                    $72
+                    $1200
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
@@ -93,7 +99,7 @@ function BuyNow() {
                     R5D2
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 dark:text-white ">
-                    $72
+                    $1840
                   </td>
                   <td className="dark:border-gray-800 border-t-2 border-b-2 border-gray-200 w-10 text-center">
                     <input name="plan" type="radio" />
@@ -103,7 +109,7 @@ function BuyNow() {
             </table>
           </div>
           <div className="flex justify-center mt-6">
-            <button className="transition duration-500 ease-in-out inline-flex text-black bg-white border-2 border-indigo-500 rounded-md py-2 px-6 focus:outline-none hover:bg-indigo-600 hover:text-white rounded text-lg">
+            <button className="transition duration-500 ease-in-out dark:bg-gray-500 inline-flex text-black bg-white border-2 border-indigo-500 rounded-md py-2 px-6 focus:outline-none hover:bg-indigo-600 hover:text-white rounded text-lg">
               Buy Now
             </button>
           </div>
